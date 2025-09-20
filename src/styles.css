@@ -71,10 +71,13 @@ body {
   width: 34px;
 }
 
+/*The suffix :after in CSS is called a pseudo-element. It allows you to insert content after the content of a selected element, without modifying the HTML.*/
+/*This targets any element with the class board-row and applies styles to a virtual element that appears immediately after its content.*/
+/*You must set the content property for :after to work.*/
 .board-row:after {
-  clear: both;
-  content: '';
-  display: table;
+  clear: both;      /* Ensures floated elements inside .board-row are cleared */
+  content: '';      /* Inserts an empty element for styling purposes */
+  display: table;   /* Makes the pseudo-element act like a table for */
 }
 
 .status {
