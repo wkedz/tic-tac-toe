@@ -25,3 +25,9 @@ function Square() {
 ```
 
 By convention, it is name, and setName. Variable `value` stores the value, and function `setValue` set the value. 
+
+## React Developer Tools 
+
+Extenstion to browser allowing to inspect React components.
+
+https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
