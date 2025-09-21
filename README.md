@@ -35,3 +35,9 @@ https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadoplj
 ## useState
 
 Calling setState will re-render each componen that is storing variable assigned to setValue
+
+## Key in list
+
+React check the components, and only create those that need to be re-rendered. So in order to avoid creating whole list, we need to pass a key, so that it will know, that some keys do noot need to be recreated. 
+
+It’s strongly recommended that you assign proper keys whenever you build dynamic lists. 
