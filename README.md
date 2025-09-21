@@ -31,3 +31,7 @@ By convention, it is name, and setName. Variable `value` stores the value, and f
 Extenstion to browser allowing to inspect React components.
 
 https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+
+## useState
+
+Calling setState will re-render each componen that is storing variable assigned to setValue
